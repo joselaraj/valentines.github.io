@@ -1,0 +1,77 @@
+html{
+    background-color: #FFC3C3;
+}
+
+.header{
+    color: #D61355; 
+    text-align: center;
+    font-size: xx-large;
+}
+
+.gif{
+    text-align: center;
+}
+
+.yes{
+    color: #D61355;
+    text-align: right;
+    transform: translate(-50%,60%);
+    font-size: xx-large;
+}
+
+.no{
+        color: #D61355;
+        text-align: left;
+        transform: translate(51%,-40%);
+        font-size: xx-large;
+}
+
+.Restaurants{
+    color: #D61355;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.yay {
+    color: #D61355;
+    font-size: xx-large;
+    text-align: center;
+  
+}
+
+.yay img{
+    height: 600px;
+    width: 600px;
+}
+
+.nope{
+    text-align: center;
+    width: 1000;
+    height: 1000;
+}
+.nope a{
+    font-size: xx-large;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.index{
+    text-align: center;
+    font-size: xx-large;
+
+}
